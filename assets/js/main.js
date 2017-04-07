@@ -10,8 +10,9 @@ var coders = ["Flor Retamozo","Magali Zambrano","Ayda Sulca","Maria Jave","Dana 
 
 function addFigure(array){
   for (var i = 0; i < array.length; i++) {
-    var principal = document.getElementById('section-principal');
-    var figure = document.createElement('figure');
+    var principal = document.getElementById("section-principal");
+    var figure = document.createElement("figure");
+    figure.setAttribute("class","figure-coder figure-hov");
     principal.appendChild(figure);
     var image = document.createElement("img");
     image.setAttribute("src","assets/img/students/"+ (i+1) + ".png");
@@ -19,7 +20,12 @@ function addFigure(array){
     image.setAttribute("class","image-coder");
     figure.appendChild(image);
     var title = document.createElement("figcaption");
+    title.setAttribute("class","name-coder");
     figure.appendChild(title);
+    var nomApe = document.createElement("p");
+    nomApe.setAttribute("class","nombre");
+    title.appendChild(nomApe);
+    nomApe.appendChild(document.createTextNode(array[i]));
   }
 }
 
