@@ -183,3 +183,23 @@ nav.open ul li {
 .header-in{
   background-color: rgba(247, 182, 23, 0.81);
 }
+
+
+/*imagenes*/
+
+section {
+  padding-top: 50px;
+}
+
+main{
+  display: inline-block;
+}
+
+figure img {
+  max-width: 35%;
+}
+
+.image-coder:hover {
+  border-radius : 50%;
+  transition-duration: 0.5s;
+}
