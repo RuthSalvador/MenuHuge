@@ -1,6 +1,3 @@
-body{
-  background-color: #616161;
-}
 /* Vista inicial*/
 nav {
   top: 0;
@@ -14,6 +11,7 @@ nav {
   position: fixed;
   background: none;
   transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+  background-color: #616161;
 }
 
 .logo {
@@ -191,6 +189,65 @@ section {
   padding-top: 50px;
 }
 
+h2 {
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+}
 .image-coder {
-  max-width: 500px;
+  max-width: 300px;
+}
+
+.figure-coder {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.figure-coder .name-coder, .figure-coder {
+  width: 300px;
+  overflow: hidden;
+}
+
+.figure-coder .name-coder{
+  position: absolute;
+}
+
+.figure-coder p.nombre {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.figure-hov .name-coder {
+   opacity: 0;
+   background-color: rgba(247, 182, 23, 0.81);
+}
+
+.figure-hov:hover img {
+   -webkit-transform: scale(1.1,1.1);
+   -moz-transform: scale(1.1,1.1);
+   -o-transform: scale(1.1,1.1);
+   -ms-transform: scale(1.1,1.1);
+   transform: scale(1.1,1.1);
+}
+
+.figure-hov p.nombre {
+   filter: alpha(opacity=0);
+   opacity: 0;
+}
+
+.figure-hov:hover .name-coder {
+   opacity: 1;
+}
+
+.figure-hov:hover p.nombre {
+   opacity: 1;
+   -webkit-transform: translateY(-20px);
+   -moz-transform: translateY(-20px);
+   -o-transform: translateY(-20px);
+   -ms-transform: translateY(-20px);
+   transform: translateY(-20px);
 }
