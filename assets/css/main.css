@@ -187,6 +187,7 @@ nav.open ul li {
 
 section {
   padding-top: 50px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -247,5 +248,13 @@ h2 {
   font-size: 45px;
   padding-top: 100px;
   font-family: 'Love Ya Like A Sister', cursive;
+}
 
+footer {
+  color: #ffffff;
+  background-color: #616161;
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-align: center;
+  padding: 20px;
+  margin: -8px;
 }
