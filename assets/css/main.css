@@ -239,6 +239,7 @@ h2 {
   position: absolute;
   overflow: hidden;
   background-color: rgba(247, 182, 23, 0.57);
+  cursor: pointer;
 }
 
 .figure-coder:hover p.nombre {
