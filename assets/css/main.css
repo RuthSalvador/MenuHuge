@@ -258,3 +258,37 @@ footer {
   padding: 20px;
   margin: -8px;
 }
+
+/*efecto maquina de escribir*/
+header{
+
+}
+
+.efect-maquina {
+	margin: auto;
+	display: table;
+  font-family: monospace;
+	background: #616161;
+  width: 700px;
+}
+
+.efect-maquina p {
+	position: relative;
+	float: left;
+	color: #ffffff;
+	font-size: 2.5em;
+}
+
+.efect-maquina p span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #616161;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
