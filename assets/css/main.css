@@ -210,55 +210,39 @@ h2 {
   height: 100%;
   margin: 0;
   margin-top: -4px;
+  overflow: hidden;
+}
+
+.name-coder {
+  opacity: 0;
   text-align: center;
-  overflow: hidden;
-}
-
-.figure-coder .name-coder, .figure-coder {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.figure-coder .name-coder{
   position: absolute;
+  display: table;
 }
 
-.figure-coder p.nombre {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    color: #ffffff;
-    text-transform: uppercase;
+.figure-coder:hover .image-coder {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-.figure-hov .name-coder {
-   opacity: 0;
-   background-color: rgba(247, 182, 23, 0.81);
+.figure-coder:hover .name-coder {
+  opacity: 1;
+  width: 350px;
+  height: 350px;
+  margin-top: -354px;
+  position: absolute;
+  overflow: hidden;
+  background-color: rgba(247, 182, 23, 0.57);
 }
 
-.figure-hov:hover img {
-   -webkit-transform: scale(1.1,1.1);
-   -moz-transform: scale(1.1,1.1);
-   -o-transform: scale(1.1,1.1);
-   -ms-transform: scale(1.1,1.1);
-   transform: scale(1.1,1.1);
-}
+.figure-coder:hover p.nombre {
+  opacity: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 40px;
+  padding-top: 120px;
 
-.figure-hov p.nombre {
-   filter: alpha(opacity=0);
-   opacity: 0;
-}
-
-.figure-hov:hover .name-coder {
-   opacity: 1;
-}
-
-.figure-hov:hover p.nombre {
-   opacity: 1;
-   -webkit-transform: translateY(-20px);
-   -moz-transform: translateY(-20px);
-   -o-transform: translateY(-20px);
-   -ms-transform: translateY(-20px);
-   transform: translateY(-20px);
 }
