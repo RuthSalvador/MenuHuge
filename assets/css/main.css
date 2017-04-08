@@ -187,17 +187,19 @@ nav.open ul li {
 
 section {
   padding-top: 50px;
-}
-
-h2 {
-  font-size: 40px;
-  color: #ffffff;
   text-align: center;
 }
 
+h2 {
+  font-size: 60px;
+  color: #616161;
+  text-align: center;
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
 .div-box {
-  width: 350px;
-  height: 350px;
+  width: 380px;
+  height: 380px;
   display: inline-block;
 }
 
@@ -230,9 +232,9 @@ h2 {
 
 .figure-coder:hover .name-coder {
   opacity: 1;
-  width: 350px;
-  height: 350px;
-  margin-top: -354px;
+  width: 380px;
+  height: 380px;
+  margin-top: -384px;
   position: absolute;
   overflow: hidden;
   background-color: rgba(247, 182, 23, 0.57);
@@ -242,7 +244,8 @@ h2 {
   opacity: 1;
   text-decoration: none;
   color: #ffffff;
-  font-size: 40px;
-  padding-top: 120px;
+  font-size: 45px;
+  padding-top: 100px;
+  font-family: 'Love Ya Like A Sister', cursive;
 
 }
